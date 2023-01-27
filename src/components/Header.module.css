@@ -1,0 +1,198 @@
+.header{
+width: 100vw;
+
+}
+.new-billboard{
+    background-color: #FF1F00;
+    padding: 13px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.new-billboard h3{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+margin: 0px 16px;
+color: #FFFFFF;
+}
+.new-billboard a{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+display: flex;
+font-size: 16px;
+text-decoration-line: underline;
+color: #FFFFFF;
+}
+.new-billboard-btn{
+width: 139px;
+height: 30px;
+background: #F79E1B;
+border-radius: 4px;
+padding: 4px 8px;
+border: none;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 140%;
+color: #FFFFFF;
+}
+.main-header{
+background: #FFFFFF;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px 55px;
+
+}
+.link-div a{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1C1C1D;
+    text-decoration: none;
+
+}
+.link-div{
+    margin-left: 30vw;
+}
+.campaign-tag{
+    margin-right: 53px;
+}
+.login-link{
+font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: #FF0000;
+text-decoration: none;
+margin-right: 44px;
+}
+.logo{
+    /* visibility: hidden; */
+    display: none;
+}
+
+.menu{
+    /* visibility: hidden; */
+    display: none;
+}
+.get-started-btn{
+background: linear-gradient(180deg, #FF6600 0%, #FF1F00 100%);
+padding: 13px 35px;
+color: white;
+font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+border-radius: 12px;
+border: none;
+}
+.side-drawer{
+    display: none;
+}
+@media (max-width: 600px) {
+    .logo{
+        visibility: visible;
+    }
+    .new-billboard{
+        display: none;
+    }
+    .campaign-tag{
+        display: none;
+    }
+    .login-link{
+        display: none;
+    }
+    .logo{
+        /* visibility: hidden; */
+        display: inline;
+    }
+    
+    .menu{
+        /* visibility: hidden; */
+        display: inline;
+    }
+    .main-header{
+        background: white;
+        display: flex;
+        flex-direction: row;
+       
+       
+        /* align-items: center; */
+        justify-content:space-between;
+       
+/* padding: 15px 19px 6px 15px; */
+    }
+    .main-header a{
+        display: none;
+    }
+    .main-logo{
+        display: none;
+    }
+    
+    .menu{
+        visibility: visible;
+        
+    }
+    .get-started-btn{
+        display: none;
+    }
+    .link-div{
+        display: none;
+    }
+    .logandb{
+        display: none;
+    }
+    .side-drawer{
+        display: flex;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        z-index: 30;
+        flex-direction: column;
+        background-color: white;
+        width: 160px;
+        padding: 20px 29px 39px 32px;
+
+
+    }
+    .side-drawer a{
+        margin-top: 51px;
+        margin-bottom: 20px;
+        color: rgba(255, 0, 0, 1);
+        text-decoration: none;
+    }
+    .side-drawer button{
+        width: 145.24px;
+        height: 40.39px;
+        background: linear-gradient(180deg, #FF6600 0%, #FF1F00 100%);
+        border: none;
+        border-radius: 8px;
+        font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+
+color: #FDFFFF;
+    }
+    .close-row-div{
+        display: flex;
+        
+        align-items: flex-start;
+        justify-content: space-between;
+        
+    }
+    .close-row-div p{
+        margin: 0px;
+    }
+}
